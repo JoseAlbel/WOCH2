@@ -1,14 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ORDER PIZZA</title>
+
+  <link rel="shortcut icon" href="img/favicon (1).ico" type="image/x-icon">
+  <link src="styles.css">
+
 </head>
 
 <body>
+  <script src="index.html"></script>
+
+  <div class="form-container">
+    <h1>Ayuda a Edu a pedir un pizza</h1>
+
+    <section class="tipo-de-pizza">
+
+      <h2>Tamaño de la pizza</h2>
+
+      <label class=" pizza-select" for="pizza-select">Elige el tamaño de la pizza</label>
+
+      <select required="true" name="size-pizza" id="size-select">
+        <option value="">--Elige una opcion--</option>
+        <option value="small">pequeña</option>
+        <option value="medium">mediana</option>
+        <option value="big">grande</option>
+
+      </select>
+
+
+      <h3>Tipo de masa</h3>
+      <label class"dough" for="dough">Elige tipo de masa</label>
+
+      <select required="true" name="dough-pizza" id="dough-select">
+        <option value="">--Elige una opcion--</option>
+        <option value="fine">fina</option>
+        <option value="gross">gruesa</option>
+        <option value="bread">pan</option>
+
+      </select>
+    </section>
+
+    <section>
+      <h4>ingredients</h4>
+
+      <label><input type="checkbox" id="peperoni" name="peperoni"> peperoni </label>
+      <label><input type="checkbox" id="pimiento" name="pimiento"> pimiento </label>
+      <label><input type="checkbox" id="cebolla" name="cebolla"> cebolla </label>
+      <label><input type="checkbox" id="piña" name="piña"> piña</label>
+      <label><input type="checkbox" id="setas" name="setas"></label>
+      <label for="cbox2">setas</label>
+
+
+
+    </section>
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
 
 </body>
 
